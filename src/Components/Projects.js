@@ -25,6 +25,17 @@ const Projects = () => (
       <p>A simple UI clone of the Facebook login page, styled with HTML and CSS (live link not available).</p>
       <span style={{ color: "gray" }}>🚧 Live demo coming soon</span>
     </div>
+
+    <div className="project-card">
+      <h3>🌦 Weather App</h3>
+      <p>
+        A responsive React weather application featuring location-based weather, search by city,
+        dark mode, and a 5-day forecast — built with OpenWeatherMap API.
+      </p>
+      <a href="https://my-weather-app-work.netlify.app/" target="_blank" rel="noopener noreferrer">
+        🌐 View Project
+      </a>
+    </div>
   </div>
 );
 
